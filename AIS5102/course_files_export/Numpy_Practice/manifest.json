@@ -1,0 +1,55 @@
+{
+  "kit_version": "1.2.0",
+  "python": "3.11.15",
+  "cache_tag": "cpython-311",
+  "numpy": "2.4.6",
+  "magic_number_hex": "a70d0d0a",
+  "supported_tasks": {
+    "first": 1,
+    "last": 65,
+    "count": 65
+  },
+  "unavailable_tasks": {
+    "first": 66,
+    "last": 100,
+    "count": 35
+  },
+  "artifacts": {
+    "STUDENT_GUIDE.md": {
+      "sha256": "d055b3d20ed54407ffdec79e48bc9a4d84e8117c7d123432e42c5b05a7bb2c02",
+      "bytes": 5147
+    },
+    "INSTALL_MINICONDA.md": {
+      "sha256": "139a0a3fba319d3ea4e9992bf4b2c0807195993b4f42077bc9f2306a727fdb66",
+      "bytes": 2342
+    },
+    "README.md": {
+      "sha256": "cbab98f99f0905f89cc83803abc353b021f535d1594c72290964a2ec6ca04429",
+      "bytes": 2301
+    },
+    "environment.yml": {
+      "sha256": "ec8f52302b9ac9e12a80d7d733df45c75a7781210b4bdd3ffea18adbea63ab68",
+      "bytes": 159
+    },
+    "numpy-reference.html": {
+      "sha256": "ec61be1acd01cec16ed362acdaaa3bee3e21a7eb54614c2b7a161727ba840780",
+      "bytes": 449284
+    },
+    "numpy_easy_medium_answers.cpython-311.pyc": {
+      "sha256": "68b396238cc257b19414e68ccd28fbe3b6c9a00ddcad600d91ed216a676a9780",
+      "bytes": 88112
+    },
+    "numpy_easy_medium_compare.ipynb": {
+      "sha256": "a382940fc4afeb46d31f40bc69c97fbc096a3b12a6f9184411d3980f983dc2f2",
+      "bytes": 82029
+    },
+    "task_contracts.json": {
+      "sha256": "8ffc3568cb0da9b3504b5610f8e9b80bf877e691baad11d9e002e143792edb7c",
+      "bytes": 31992
+    },
+    "requirements.txt": {
+      "sha256": "4fb11a53520f9db6c45449c25d208137b8b361a7adfbaae26e8c926f4de5c3a3",
+      "bytes": 115
+    }
+  }
+}

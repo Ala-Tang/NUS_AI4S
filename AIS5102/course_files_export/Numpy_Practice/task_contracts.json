@@ -1,0 +1,1055 @@
+{
+  "1": {
+    "task_id": 1,
+    "tier": "Easy",
+    "function": "q001",
+    "signature": "()",
+    "header": "def q001():",
+    "prompt": "Create a 1-D array of the integers 0 through 9.",
+    "input": "No arguments.",
+    "returns": "NumPy array with shape (10,), integer kind.",
+    "concepts": [
+      "Create arrays"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": "integer"
+  },
+  "2": {
+    "task_id": 2,
+    "tier": "Easy",
+    "function": "q002",
+    "signature": "()",
+    "header": "def q002():",
+    "prompt": "Create a 3×3 array of all zeros.",
+    "input": "No arguments.",
+    "returns": "NumPy array with shape (3, 3).",
+    "concepts": [
+      "Create arrays"
+    ],
+    "notes": "Return a 3 x 3 NumPy array of zeros.",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "3": {
+    "task_id": 3,
+    "tier": "Easy",
+    "function": "q003",
+    "signature": "()",
+    "header": "def q003():",
+    "prompt": "Create a 4×4 identity matrix.",
+    "input": "No arguments.",
+    "returns": "NumPy array with shape (4, 4).",
+    "concepts": [
+      "Create arrays"
+    ],
+    "notes": "Return a 4 x 4 NumPy identity matrix.",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "4": {
+    "task_id": 4,
+    "tier": "Easy",
+    "function": "q004",
+    "signature": "()",
+    "header": "def q004():",
+    "prompt": "Create 50 evenly spaced points between 0 and 1, inclusive of both ends.",
+    "input": "No arguments.",
+    "returns": "NumPy array with shape (50,).",
+    "concepts": [
+      "Create arrays"
+    ],
+    "notes": "Return exactly 50 evenly spaced values, including 0 and 1.",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "5": {
+    "task_id": 5,
+    "tier": "Easy",
+    "function": "q005",
+    "signature": "()",
+    "header": "def q005():",
+    "prompt": "Create an array of the values 0, 10, 20, …, 100 using a fixed step.",
+    "input": "No arguments.",
+    "returns": "NumPy array with shape (11,), integer kind.",
+    "concepts": [
+      "Create arrays"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": "integer"
+  },
+  "6": {
+    "task_id": 6,
+    "tier": "Easy",
+    "function": "q006",
+    "signature": "(x)",
+    "header": "def q006(x):",
+    "prompt": "Reshape a length-12 array into a 3×4 matrix.",
+    "input": "x: array containing exactly 12 values.",
+    "returns": "NumPy array with shape (3, 4).",
+    "concepts": [
+      "Reshape & combine"
+    ],
+    "notes": "x must contain exactly 12 values; return shape (3, 4).",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "7": {
+    "task_id": 7,
+    "tier": "Easy",
+    "function": "q007",
+    "signature": "(x)",
+    "header": "def q007(x):",
+    "prompt": "Compute the element-wise square root of an array.",
+    "input": "x: numeric NumPy array of any checked shape.",
+    "returns": "NumPy array with the same shape as x.",
+    "concepts": [
+      "Element-wise math"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "8": {
+    "task_id": 8,
+    "tier": "Easy",
+    "function": "q008",
+    "signature": "(x)",
+    "header": "def q008(x):",
+    "prompt": "Compute the mean of all elements in an array.",
+    "input": "x: numeric NumPy array.",
+    "returns": "Numeric scalar.",
+    "concepts": [
+      "Reduce, aggregate & stats"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "9": {
+    "task_id": 9,
+    "tier": "Easy",
+    "function": "q009",
+    "signature": "(x)",
+    "header": "def q009(x):",
+    "prompt": "Compute the sum of each column of a 2-D array.",
+    "input": "x: 2-D numeric array with shape (rows, columns).",
+    "returns": "1-D NumPy array with one value per input column.",
+    "concepts": [
+      "Reduce, aggregate & stats"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "10": {
+    "task_id": 10,
+    "tier": "Easy",
+    "function": "q010",
+    "signature": "(x)",
+    "header": "def q010(x):",
+    "prompt": "Find the index of the largest element in a 1-D array.",
+    "input": "x: non-empty 1-D numeric array.",
+    "returns": "Integer scalar index.",
+    "concepts": [
+      "Sort, search & count"
+    ],
+    "notes": "If several elements are tied for the maximum, return the first (smallest) index.",
+    "strict_dtype": null,
+    "strict_kind": "integer"
+  },
+  "11": {
+    "task_id": 11,
+    "tier": "Easy",
+    "function": "q011",
+    "signature": "(x)",
+    "header": "def q011(x):",
+    "prompt": "Transpose a 2-D matrix.",
+    "input": "x: 2-D array with shape (rows, columns).",
+    "returns": "NumPy array with shape (columns, rows).",
+    "concepts": [
+      "Reshape & combine"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "12": {
+    "task_id": 12,
+    "tier": "Easy",
+    "function": "q012",
+    "signature": "(x)",
+    "header": "def q012(x):",
+    "prompt": "Flatten a multi-dimensional array into a 1-D array.",
+    "input": "x: multi-dimensional NumPy array.",
+    "returns": "1-D NumPy array with shape (x.size,).",
+    "concepts": [
+      "Reshape & combine"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "13": {
+    "task_id": 13,
+    "tier": "Easy",
+    "function": "q013",
+    "signature": "(a, b)",
+    "header": "def q013(a, b):",
+    "prompt": "Concatenate two 1-D arrays end to end.",
+    "input": "a, b: 1-D arrays.",
+    "returns": "1-D NumPy array with shape (len(a) + len(b),).",
+    "concepts": [
+      "Reshape & combine"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "14": {
+    "task_id": 14,
+    "tier": "Easy",
+    "function": "q014",
+    "signature": "(a, b)",
+    "header": "def q014(a, b):",
+    "prompt": "Stack two 1-D arrays as the two rows of a 2-D array.",
+    "input": "a, b: equal-length 1-D arrays of length n.",
+    "returns": "2-D NumPy array with shape (2, n).",
+    "concepts": [
+      "Reshape & combine"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "15": {
+    "task_id": 15,
+    "tier": "Easy",
+    "function": "q015",
+    "signature": "(x)",
+    "header": "def q015(x):",
+    "prompt": "Cast a float array to 32-bit integers.",
+    "input": "x: floating-point NumPy array.",
+    "returns": "NumPy array with the same shape as x and dtype int32.",
+    "concepts": [
+      "Index, mask & select"
+    ],
+    "notes": "The returned NumPy array must have dtype int32.",
+    "strict_dtype": "int32",
+    "strict_kind": null
+  },
+  "16": {
+    "task_id": 16,
+    "tier": "Easy",
+    "function": "q016",
+    "signature": "(x)",
+    "header": "def q016(x):",
+    "prompt": "Clip every value in an array to the range [0, 1].",
+    "input": "x: numeric NumPy array.",
+    "returns": "NumPy array with the same shape as x.",
+    "concepts": [
+      "Index, mask & select"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "17": {
+    "task_id": 17,
+    "tier": "Easy",
+    "function": "q017",
+    "signature": "(x)",
+    "header": "def q017(x):",
+    "prompt": "Round every element of an array to the nearest integer.",
+    "input": "x: numeric NumPy array.",
+    "returns": "NumPy array with the same shape as x.",
+    "concepts": [
+      "Element-wise math"
+    ],
+    "notes": "Halves round to the nearest even integer, as np.round does: 2.5 rounds to 2 and 3.5 rounds to 4.",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "18": {
+    "task_id": 18,
+    "tier": "Easy",
+    "function": "q018",
+    "signature": "(a, b)",
+    "header": "def q018(a, b):",
+    "prompt": "Compute the dot product of two 1-D vectors.",
+    "input": "a, b: equal-length 1-D numeric vectors.",
+    "returns": "Numeric scalar.",
+    "concepts": [
+      "Linear algebra"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "19": {
+    "task_id": 19,
+    "tier": "Easy",
+    "function": "q019",
+    "signature": "(x)",
+    "header": "def q019(x):",
+    "prompt": "Sort a 1-D array in ascending order.",
+    "input": "x: 1-D NumPy array.",
+    "returns": "1-D NumPy array with the same shape as x.",
+    "concepts": [
+      "Sort, search & count"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "20": {
+    "task_id": 20,
+    "tier": "Easy",
+    "function": "q020",
+    "signature": "(x)",
+    "header": "def q020(x):",
+    "prompt": "Return the sorted unique values of an array.",
+    "input": "x: 1-D NumPy array.",
+    "returns": "1-D NumPy array with shape (number of unique values,).",
+    "concepts": [
+      "Sort, search & count"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "21": {
+    "task_id": 21,
+    "tier": "Easy",
+    "function": "q021",
+    "signature": "(x)",
+    "header": "def q021(x):",
+    "prompt": "Count how many elements of an array are nonzero.",
+    "input": "x: NumPy array.",
+    "returns": "Integer scalar count.",
+    "concepts": [
+      "Sort, search & count"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": "integer"
+  },
+  "22": {
+    "task_id": 22,
+    "tier": "Easy",
+    "function": "q022",
+    "signature": "(x, threshold)",
+    "header": "def q022(x, threshold):",
+    "prompt": "Build a boolean mask marking elements greater than a given threshold.",
+    "input": "x: NumPy array; threshold: scalar threshold.",
+    "returns": "Boolean NumPy array with the same shape as x.",
+    "concepts": [
+      "Index, mask & select"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": "boolean"
+  },
+  "23": {
+    "task_id": 23,
+    "tier": "Easy",
+    "function": "q023",
+    "signature": "(x)",
+    "header": "def q023(x):",
+    "prompt": "Replace every negative value in an array with zero.",
+    "input": "x: numeric NumPy array.",
+    "returns": "NumPy array with the same shape as x.",
+    "concepts": [
+      "Index, mask & select"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "24": {
+    "task_id": 24,
+    "tier": "Easy",
+    "function": "q024",
+    "signature": "(x)",
+    "header": "def q024(x):",
+    "prompt": "Compute the cumulative sum of a 1-D array.",
+    "input": "x: 1-D numeric array of length n.",
+    "returns": "1-D NumPy array with shape (n,).",
+    "concepts": [
+      "Reduce, aggregate & stats"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "25": {
+    "task_id": 25,
+    "tier": "Easy",
+    "function": "q025",
+    "signature": "(seed=0)",
+    "header": "def q025(seed=0):",
+    "prompt": "Generate a 3×3 array of uniform random numbers in [0, 1) from a seeded generator.",
+    "input": "seed: integer random seed (default 0).",
+    "returns": "NumPy array with shape (3, 3).",
+    "concepts": [
+      "Randomness"
+    ],
+    "notes": "Use np.random.default_rng(seed); return shape (3, 3).",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "26": {
+    "task_id": 26,
+    "tier": "Easy",
+    "function": "q026",
+    "signature": "(x)",
+    "header": "def q026(x):",
+    "prompt": "Compute the standard deviation of an array.",
+    "input": "x: numeric NumPy array.",
+    "returns": "Numeric scalar using population standard deviation (ddof=0).",
+    "concepts": [
+      "Reduce, aggregate & stats"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "27": {
+    "task_id": 27,
+    "tier": "Easy",
+    "function": "q027",
+    "signature": "(x)",
+    "header": "def q027(x):",
+    "prompt": "Find both the minimum and the maximum value of an array.",
+    "input": "x: non-empty numeric NumPy array.",
+    "returns": "Two-item tuple (minimum, maximum).",
+    "concepts": [
+      "Reduce, aggregate & stats"
+    ],
+    "notes": "Return a two-item tuple: (minimum, maximum).",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "28": {
+    "task_id": 28,
+    "tier": "Easy",
+    "function": "q028",
+    "signature": "(x)",
+    "header": "def q028(x):",
+    "prompt": "Compute the element-wise absolute value of an array.",
+    "input": "x: real or complex NumPy array.",
+    "returns": "NumPy array with the same shape as x.",
+    "concepts": [
+      "Element-wise math"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "29": {
+    "task_id": 29,
+    "tier": "Easy",
+    "function": "q029",
+    "signature": "()",
+    "header": "def q029():",
+    "prompt": "Create a 2×4 array filled entirely with the value 7.",
+    "input": "No arguments.",
+    "returns": "NumPy array with shape (2, 4).",
+    "concepts": [
+      "Create arrays"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "30": {
+    "task_id": 30,
+    "tier": "Easy",
+    "function": "q030",
+    "signature": "(x)",
+    "header": "def q030(x):",
+    "prompt": "Compute the exponential of every element of an array.",
+    "input": "x: numeric NumPy array.",
+    "returns": "NumPy array with the same shape as x.",
+    "concepts": [
+      "Element-wise math"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "31": {
+    "task_id": 31,
+    "tier": "Easy",
+    "function": "q031",
+    "signature": "(x)",
+    "header": "def q031(x):",
+    "prompt": "Reverse the order of a 1-D array.",
+    "input": "x: 1-D NumPy array of length n.",
+    "returns": "1-D NumPy array with shape (n,).",
+    "concepts": [
+      "Reshape & combine"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "32": {
+    "task_id": 32,
+    "tier": "Easy",
+    "function": "q032",
+    "signature": "(x)",
+    "header": "def q032(x):",
+    "prompt": "Compute the natural logarithm of every element of an array.",
+    "input": "x: positive numeric NumPy array.",
+    "returns": "NumPy array with the same shape as x.",
+    "concepts": [
+      "Element-wise math"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "33": {
+    "task_id": 33,
+    "tier": "Easy",
+    "function": "q033",
+    "signature": "(x)",
+    "header": "def q033(x):",
+    "prompt": "Turn a length-n vector into an n×1 column vector by adding an axis.",
+    "input": "x: 1-D vector of length n.",
+    "returns": "2-D NumPy array with shape (n, 1).",
+    "concepts": [
+      "Reshape & combine"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "34": {
+    "task_id": 34,
+    "tier": "Easy",
+    "function": "q034",
+    "signature": "(x)",
+    "header": "def q034(x):",
+    "prompt": "Compute the trace (sum of the diagonal) of a square matrix.",
+    "input": "x: square 2-D matrix with shape (n, n).",
+    "returns": "Numeric scalar.",
+    "concepts": [
+      "Reduce, aggregate & stats"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "35": {
+    "task_id": 35,
+    "tier": "Easy",
+    "function": "q035",
+    "signature": "(x)",
+    "header": "def q035(x):",
+    "prompt": "Return an array in which each element is repeated three consecutive times.",
+    "input": "x: 1-D array of length n.",
+    "returns": "1-D NumPy array with shape (3n,).",
+    "concepts": [
+      "Reshape & combine"
+    ],
+    "notes": "Return an array with each value repeated three consecutive times.",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "36": {
+    "task_id": 36,
+    "tier": "Medium",
+    "function": "q036",
+    "signature": "(x)",
+    "header": "def q036(x):",
+    "prompt": "Standardize a 1-D array to zero mean and unit standard deviation.",
+    "input": "x: 1-D numeric array of length n with non-zero standard deviation.",
+    "returns": "1-D NumPy array with shape (n,).",
+    "concepts": [
+      "Reduce, aggregate & stats"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "37": {
+    "task_id": 37,
+    "tier": "Medium",
+    "function": "q037",
+    "signature": "(x)",
+    "header": "def q037(x):",
+    "prompt": "Normalize each row of a matrix so that its entries sum to 1.",
+    "input": "x: 2-D numeric array; every checked row has a non-zero sum.",
+    "returns": "2-D NumPy array with the same shape as x.",
+    "concepts": [
+      "Reduce, aggregate & stats"
+    ],
+    "notes": "Normalize across axis 1. Test rows have non-zero sums.",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "38": {
+    "task_id": 38,
+    "tier": "Medium",
+    "function": "q038",
+    "signature": "(x)",
+    "header": "def q038(x):",
+    "prompt": "Min–max scale each column of a matrix independently to the range [0, 1].",
+    "input": "x: 2-D numeric array with shape (rows, columns).",
+    "returns": "2-D NumPy array with the same shape as x.",
+    "concepts": [
+      "Reduce, aggregate & stats"
+    ],
+    "notes": "Scale columns independently; a constant column maps to zeros.",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "39": {
+    "task_id": 39,
+    "tier": "Medium",
+    "function": "q039",
+    "signature": "(x)",
+    "header": "def q039(x):",
+    "prompt": "Compute the L2 norm of every row of a matrix.",
+    "input": "x: 2-D numeric array with shape (rows, features).",
+    "returns": "1-D NumPy array with shape (rows,).",
+    "concepts": [
+      "Linear algebra"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "40": {
+    "task_id": 40,
+    "tier": "Medium",
+    "function": "q040",
+    "signature": "(x, k)",
+    "header": "def q040(x, k):",
+    "prompt": "Return the k largest values of an array, in descending order.",
+    "input": "x: 1-D array of length n; k: integer with 0 <= k <= n.",
+    "returns": "1-D NumPy array with shape (k,).",
+    "concepts": [
+      "Sort, search & count"
+    ],
+    "notes": "Return the k largest values in descending order.",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "41": {
+    "task_id": 41,
+    "tier": "Medium",
+    "function": "q041",
+    "signature": "(labels, num_classes)",
+    "header": "def q041(labels, num_classes):",
+    "prompt": "One-hot encode a vector of integer class labels into a 2-D array.",
+    "input": "labels: length-n integer vector in [0, num_classes); num_classes: positive integer.",
+    "returns": "2-D NumPy array with shape (n, num_classes).",
+    "concepts": [
+      "Create arrays"
+    ],
+    "notes": "Return shape (len(labels), num_classes).",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "42": {
+    "task_id": 42,
+    "tier": "Medium",
+    "function": "q042",
+    "signature": "(x, window)",
+    "header": "def q042(x, window):",
+    "prompt": "Compute a simple moving average of a 1-D signal with a fixed window length.",
+    "input": "x: length-n 1-D signal; window: integer with 1 <= window <= n.",
+    "returns": "1-D NumPy array with shape (n - window + 1,).",
+    "concepts": [
+      "Element-wise math",
+      "Reduce, aggregate & stats"
+    ],
+    "notes": "Return only complete windows ('valid' mode).",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "43": {
+    "task_id": 43,
+    "tier": "Medium",
+    "function": "q043",
+    "signature": "(x)",
+    "header": "def q043(x):",
+    "prompt": "Replace the NaNs in each column of a matrix with that column's mean of the non-NaN values.",
+    "input": "x: 2-D floating-point array that may contain NaNs.",
+    "returns": "2-D NumPy array with the same shape as x.",
+    "concepts": [
+      "Index, mask & select",
+      "Reduce, aggregate & stats"
+    ],
+    "notes": "Use each column's non-NaN mean; an all-NaN column remains NaN.",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "44": {
+    "task_id": 44,
+    "tier": "Medium",
+    "function": "q044",
+    "signature": "(x)",
+    "header": "def q044(x):",
+    "prompt": "Compute the softmax of a 1-D vector.",
+    "input": "x: non-empty 1-D numeric vector.",
+    "returns": "1-D NumPy array with the same shape as x.",
+    "concepts": [
+      "Element-wise math",
+      "Reduce, aggregate & stats"
+    ],
+    "notes": "Use a numerically stable softmax (subtract the maximum first).",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "45": {
+    "task_id": 45,
+    "tier": "Medium",
+    "function": "q045",
+    "signature": "(x, bins, value_range=None)",
+    "header": "def q045(x, bins, value_range=None):",
+    "prompt": "Bin continuous data into a histogram and return the counts per bin.",
+    "input": "x: 1-D data; bins: count or explicit edges; value_range: optional (low, high).",
+    "returns": "Integer counts: shape (bins,) or (len(edges) - 1,).",
+    "concepts": [
+      "Reduce, aggregate & stats"
+    ],
+    "notes": "Return histogram counts only. value_range is passed to np.histogram.",
+    "strict_dtype": null,
+    "strict_kind": "integer"
+  },
+  "46": {
+    "task_id": 46,
+    "tier": "Medium",
+    "function": "q046",
+    "signature": "(x)",
+    "header": "def q046(x):",
+    "prompt": "Compute the correlation-coefficient matrix of a data matrix and extract its off-diagonal entries.",
+    "input": "x: 2-D data matrix with shape (samples, variables).",
+    "returns": "1-D NumPy array with shape (variables * (variables - 1) / 2,).",
+    "concepts": [
+      "Index, mask & select",
+      "Reduce, aggregate & stats"
+    ],
+    "notes": "Rows are samples and columns are variables; return upper-triangle off-diagonal correlations in row-major order.",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "47": {
+    "task_id": 47,
+    "tier": "Medium",
+    "function": "q047",
+    "signature": "(x, threshold)",
+    "header": "def q047(x, threshold):",
+    "prompt": "Select and return only the rows of a matrix whose first column exceeds a threshold.",
+    "input": "x: 2-D matrix with shape (rows, columns); threshold: scalar.",
+    "returns": "2-D NumPy array with shape (matching rows, columns).",
+    "concepts": [
+      "Index, mask & select"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "48": {
+    "task_id": 48,
+    "tier": "Medium",
+    "function": "q048",
+    "signature": "(a, b)",
+    "header": "def q048(a, b):",
+    "prompt": "Compute the Euclidean distance between two vectors.",
+    "input": "a, b: numeric vectors with the same shape.",
+    "returns": "Numeric scalar.",
+    "concepts": [
+      "Linear algebra"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "49": {
+    "task_id": 49,
+    "tier": "Medium",
+    "function": "q049",
+    "signature": "(image)",
+    "header": "def q049(image):",
+    "prompt": "Convert a uint8 image array in [0, 255] to a float32 array in [0, 1].",
+    "input": "image: uint8 NumPy array with values in [0, 255].",
+    "returns": "NumPy array with the same shape as image and dtype float32.",
+    "concepts": [
+      "Index, mask & select"
+    ],
+    "notes": "The returned NumPy array must have dtype float32.",
+    "strict_dtype": "float32",
+    "strict_kind": null
+  },
+  "50": {
+    "task_id": 50,
+    "tier": "Medium",
+    "function": "q050",
+    "signature": "(images)",
+    "header": "def q050(images):",
+    "prompt": "Flatten a batch of images with shape (N, H, W) into a 2-D matrix of shape (N, H·W).",
+    "input": "images: image batch with shape (N, H, W).",
+    "returns": "2-D NumPy array with shape (N, H * W).",
+    "concepts": [
+      "Reshape & combine"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "51": {
+    "task_id": 51,
+    "tier": "Medium",
+    "function": "q051",
+    "signature": "(x)",
+    "header": "def q051(x):",
+    "prompt": "Compute the mean of an array while ignoring NaNs, and separately report how many values were NaN.",
+    "input": "x: NumPy array that may contain NaNs.",
+    "returns": "Two-item tuple (NaN-ignoring mean, NaN count).",
+    "concepts": [
+      "Index, mask & select",
+      "Reduce, aggregate & stats"
+    ],
+    "notes": "Return a two-item tuple: (mean ignoring NaNs, number of NaNs).",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "52": {
+    "task_id": 52,
+    "tier": "Medium",
+    "function": "q052",
+    "signature": "(x)",
+    "header": "def q052(x):",
+    "prompt": "Add a bias column of ones to a feature matrix to form a design matrix.",
+    "input": "x: feature matrix with shape (N, F).",
+    "returns": "2-D NumPy array with shape (N, F + 1).",
+    "concepts": [
+      "Create arrays",
+      "Reshape & combine"
+    ],
+    "notes": "Append the bias column as the final column.",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "53": {
+    "task_id": 53,
+    "tier": "Medium",
+    "function": "q053",
+    "signature": "(x)",
+    "header": "def q053(x):",
+    "prompt": "Given a 2-D array with samples in rows, center each column and compute the sample covariance matrix by hand using N−1.",
+    "input": "x: data matrix with shape (N, F), samples in rows, N >= 2.",
+    "returns": "2-D NumPy array with shape (F, F).",
+    "concepts": [
+      "Reduce, aggregate & stats",
+      "Linear algebra"
+    ],
+    "notes": "Rows are samples. Center each column and divide centered.T @ centered by n - 1.",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "54": {
+    "task_id": 54,
+    "tier": "Medium",
+    "function": "q054",
+    "signature": "(keys, values)",
+    "header": "def q054(keys, values):",
+    "prompt": "Compute the indices that sort one array, then use them to reorder a second array.",
+    "input": "keys: length-n 1-D array; values: array whose first axis has length n.",
+    "returns": "NumPy array with the same shape as values.",
+    "concepts": [
+      "Sort, search & count"
+    ],
+    "notes": "Use a stable ordering when keys are tied.",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "55": {
+    "task_id": 55,
+    "tier": "Medium",
+    "function": "q055",
+    "signature": "(values, weights)",
+    "header": "def q055(values, weights):",
+    "prompt": "Given per-item values and weights, compute their weighted average.",
+    "input": "values, weights: compatible numeric arrays with non-zero total weight.",
+    "returns": "Numeric scalar.",
+    "concepts": [
+      "Reduce, aggregate & stats"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "56": {
+    "task_id": 56,
+    "tier": "Medium",
+    "function": "q056",
+    "signature": "(x)",
+    "header": "def q056(x):",
+    "prompt": "Find the indices of all elements lying more than three standard deviations from the mean.",
+    "input": "x: 1-D numeric array of length n.",
+    "returns": "1-D integer index array with shape (number of outliers,).",
+    "concepts": [
+      "Index, mask & select",
+      "Element-wise math",
+      "Reduce, aggregate & stats"
+    ],
+    "notes": "Return 1-D indices satisfying the strict condition abs(x - mean) > 3 * std.",
+    "strict_dtype": null,
+    "strict_kind": "integer"
+  },
+  "57": {
+    "task_id": 57,
+    "tier": "Medium",
+    "function": "q057",
+    "signature": "(a, b)",
+    "header": "def q057(a, b):",
+    "prompt": "Compute the cosine similarity between every pair of rows drawn from two matrices.",
+    "input": "a: shape (r, d); b: shape (s, d); rows are vectors.",
+    "returns": "2-D NumPy array with shape (r, s).",
+    "concepts": [
+      "Linear algebra"
+    ],
+    "notes": "Rows are vectors. Pairwise similarity involving a zero vector is defined as 0.",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "58": {
+    "task_id": 58,
+    "tier": "Medium",
+    "function": "q058",
+    "signature": "(x, block_size)",
+    "header": "def q058(x, block_size):",
+    "prompt": "Downsample a 1-D signal by averaging consecutive non-overlapping blocks.",
+    "input": "x: length-n 1-D signal; block_size: positive integer dividing n.",
+    "returns": "1-D NumPy array with shape (n / block_size,).",
+    "concepts": [
+      "Reshape & combine",
+      "Reduce, aggregate & stats"
+    ],
+    "notes": "block_size must be positive and divide len(x); otherwise raise ValueError.",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "59": {
+    "task_id": 59,
+    "tier": "Medium",
+    "function": "q059",
+    "signature": "(predicted, truth)",
+    "header": "def q059(predicted, truth):",
+    "prompt": "Given predicted and true binary labels, count the true positives, false positives, true negatives, and false negatives.",
+    "input": "predicted, truth: same-shape vectors of binary labels.",
+    "returns": "Four-item tuple of integer counts (TP, FP, TN, FN).",
+    "concepts": [
+      "Index, mask & select",
+      "Reduce, aggregate & stats"
+    ],
+    "notes": "Return (true positives, false positives, true negatives, false negatives).",
+    "strict_dtype": null,
+    "strict_kind": "integer"
+  },
+  "60": {
+    "task_id": 60,
+    "tier": "Medium",
+    "function": "q060",
+    "signature": "(x)",
+    "header": "def q060(x):",
+    "prompt": "Linearly interpolate the missing (NaN) values in a 1-D array from their neighbors.",
+    "input": "x: length-n 1-D array containing at least one non-NaN value.",
+    "returns": "1-D NumPy array with shape (n,).",
+    "concepts": [
+      "Index, mask & select",
+      "Element-wise math"
+    ],
+    "notes": "Use NumPy interpolation; endpoint NaNs take the nearest known endpoint value.",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "61": {
+    "task_id": 61,
+    "tier": "Medium",
+    "function": "q061",
+    "signature": "(x, window)",
+    "header": "def q061(x, window):",
+    "prompt": "Compute a rolling standard deviation over a fixed window using a sliding-window view.",
+    "input": "x: length-n 1-D signal; window: integer with 1 <= window <= n.",
+    "returns": "1-D NumPy array with shape (n - window + 1,).",
+    "concepts": [
+      "Reduce, aggregate & stats",
+      "Windows & views"
+    ],
+    "notes": "Return population standard deviation (ddof=0) for complete windows.",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "62": {
+    "task_id": 62,
+    "tier": "Medium",
+    "function": "q062",
+    "signature": "(x, train_fraction=0.7, seed=0)",
+    "header": "def q062(x, train_fraction=0.7, seed=0):",
+    "prompt": "Split a dataset into a training and test set by randomly permuting the row indices.",
+    "input": "x: dataset with N rows; train_fraction in [0, 1]; seed: integer.",
+    "returns": "Two-item tuple (train, test), preserving all dimensions after the row axis.",
+    "concepts": [
+      "Randomness"
+    ],
+    "notes": "Use a local default_rng(seed). Permute rows, then split at int(n * train_fraction); return (train, test).",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "63": {
+    "task_id": 63,
+    "tier": "Medium",
+    "function": "q063",
+    "signature": "(x)",
+    "header": "def q063(x):",
+    "prompt": "Rescale a vector so that its values sum to exactly 1 (turn counts into a probability distribution).",
+    "input": "x: length-n numeric vector with a non-zero sum.",
+    "returns": "1-D NumPy array with shape (n,).",
+    "concepts": [
+      "Reduce, aggregate & stats"
+    ],
+    "notes": "Inputs used for checking have a non-zero total.",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "64": {
+    "task_id": 64,
+    "tier": "Medium",
+    "function": "q064",
+    "signature": "(x)",
+    "header": "def q064(x):",
+    "prompt": "Given a 2-D array, subtract its global mean and divide by its global standard deviation.",
+    "input": "x: 2-D numeric array with non-zero global standard deviation.",
+    "returns": "2-D NumPy array with the same shape as x.",
+    "concepts": [
+      "Reduce, aggregate & stats"
+    ],
+    "notes": "Use the global mean and population standard deviation (ddof=0).",
+    "strict_dtype": null,
+    "strict_kind": null
+  },
+  "65": {
+    "task_id": 65,
+    "tier": "Medium",
+    "function": "q065",
+    "signature": "(a, b)",
+    "header": "def q065(a, b):",
+    "prompt": "Keep only the elements common to two integer arrays and return them sorted.",
+    "input": "a, b: 1-D integer arrays.",
+    "returns": "1-D integer array with shape (number of unique common values,).",
+    "concepts": [
+      "Set operations"
+    ],
+    "notes": "",
+    "strict_dtype": null,
+    "strict_kind": "integer"
+  }
+}

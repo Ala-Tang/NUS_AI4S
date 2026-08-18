@@ -1,0 +1,4 @@
+# Requires CPython 3.11.x; requirements.txt cannot install Python.
+numpy==2.4.6
+jupyterlab==4.6.1
+ipykernel==7.3.0

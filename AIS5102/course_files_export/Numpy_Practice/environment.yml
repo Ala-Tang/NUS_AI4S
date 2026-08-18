@@ -1,0 +1,10 @@
+name: ais5102
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - numpy==2.4.6
+      - jupyterlab==4.6.1
+      - ipykernel==7.3.0
